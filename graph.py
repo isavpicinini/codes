@@ -1,4 +1,4 @@
-#chose a prime number n
+#choose a prime number n
 n = 19
 
 #this creates an empty list which will be filled with edge representatives
