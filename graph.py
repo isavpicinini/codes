@@ -1,5 +1,5 @@
 #chose a prime number n
-n = 5
+n = 19
 
 #this creates an empty list which will be filled with edge representatives
 #for every i, it decides which j is such that R^j is the same edge as R^i
