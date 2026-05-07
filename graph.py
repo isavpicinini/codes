@@ -69,15 +69,13 @@ for i in range(1,len(redE)):
 #corE corrects the list of edges by swapping [k,k-1] for [r,s] if k~r and k-1~s in V
 corE=edges.copy()
 for i in range(1,len(edges)):
-    if edges[i][0]!=edges[i][1]:
-        for j in range(0,2):
+    for j in range(0,2):
             for k in range(0,len(redV)):
                 if edges[i][j]==redV[k][1]:
                     corE[i][j] = redV[k][0]
                 elif len(redV[k])==3:
                     if edges[i][j]==redV[k][2]:
                         corE[i][j] = redV[k][0]
-
                         
 print(corE)
                         
